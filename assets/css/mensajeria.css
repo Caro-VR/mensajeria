@@ -1,0 +1,109 @@
+.contenedor-principal {
+    display: flex;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-right: solid 1px #bec1bb;
+}
+
+.maria {
+    display: flex;
+    padding: 10px 20px 10px 30px;
+    align-items: center;
+    border-bottom: solid 1px #bec1bb;
+}
+
+.maria img {
+    font-family: 'Roboto', sans-serif;
+    color: #1b1f21;
+    /* justify-content: flex-start; */
+    border-radius: 50%;
+    width: 12%;
+}
+
+.maria h5 {
+    margin: 0px;
+    margin-left: 10px;
+    font-family: 'Open Sans bold', sans-serif;
+    color: #1b1f21;
+}
+
+.maria p {
+    margin: 0px;
+    margin-left: 10px;
+    color: #828485;
+}
+
+.nuevo-chat {
+    padding: 40px;
+    text-align: center;
+    border-bottom: solid 1px #bec1bb;
+}
+
+.icons-flex-box {
+    margin-left: auto;
+    color: #bec1bb;
+}
+
+.icons-flex-box i {
+    padding-left: 10px;
+}
+
+
+.contacto-chat {
+    display: flex;
+    padding: 10px 0px 10px 30px;
+    align-items: center;
+    border-bottom: solid 1px #bec1bb;
+}
+
+.contacto-chat img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.contacto-chat h5 {
+    padding-left: 10px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contacto-chat p {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background-color: #e8ebe4;
+}
+
+.derecha {
+    text-align: center;
+    padding-top: 200px;
+    width: 50%;
+}
+
+.derecha img {
+    width: 50%;
+}
+
+.derecha h1 {
+    margin-top: 30px;
+    font-family:'Roboto', sans-serif, bold;
+}
+
+.derecha p {
+font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    background-color:#a491d2;
+    border-color: #a491d2;
+}
